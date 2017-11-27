@@ -4,6 +4,7 @@
   "description": "This is a Guestbook application ",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "node index"
   },
   "author": "Viraj Shelke",
