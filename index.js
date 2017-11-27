@@ -52,7 +52,7 @@ app.use(
     }
 );
 
-http.createServer(app).listen(
+app.listen(
     80,
     () => {
         console.log("Guestbook app started on port 80");
