@@ -13,5 +13,13 @@
     "ejs": "^2.5.7",
     "express": "^4.16.2",
     "morgan": "^1.9.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thevirajshelke/guestbook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thevirajshelke/guestbook/issues"
+  },
+  "homepage": "https://github.com/thevirajshelke/guestbook#readme"
 }
