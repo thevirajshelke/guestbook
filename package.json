@@ -1,0 +1,17 @@
+{
+  "name": "guestbook",
+  "version": "1.0.0",
+  "description": "This is a Guestbook application ",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app"
+  },
+  "author": "Viraj Shelke",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0"
+  }
+}
