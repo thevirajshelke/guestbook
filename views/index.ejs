@@ -1,0 +1,20 @@
+<% include header %>
+<% if (entries.length){ %>
+    <% entries.forEach((entry) => { %>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="text-muted pull-right">
+                    <%= entry.published %>
+                </div>
+                <%= entry.title%>
+            </div>
+            <div class="panel-body">
+                <%= entry.content %>
+            </div>
+        </div>
+    <% }) %>
+<% } else { %>        
+    <h2> No Entries!</h2>
+    <a href="/new-entry" class="btn btn-primary pull-left">Add one!</a>
+<% } %>
+<% include footer %>    
