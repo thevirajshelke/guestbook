@@ -53,8 +53,8 @@ app.use(
 );
 
 http.createServer(app).listen(
-    8080,
+    80,
     () => {
-        console.log("Guestbook app started on port 8080");
+        console.log("Guestbook app started on port 80");
     }    
 );
