@@ -53,8 +53,8 @@ app.use(
 );
 
 app.listen(
-    process.env.PORT || 5000,
+    process.env.PORT || 80,
     () => {
-        console.log("Guestbook app started on port 5000");
+        console.log("Guestbook app started on port 80");
     }    
 );
