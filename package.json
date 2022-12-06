@@ -10,9 +10,9 @@
   "author": "Viraj Shelke",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.2",
+    "body-parser": "^1.20.1",
     "ejs": "^2.5.7",
-    "express": "^4.16.2",
+    "express": "^4.18.2",
     "morgan": "^1.9.1"
   },
   "repository": {
